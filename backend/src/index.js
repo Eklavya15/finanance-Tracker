@@ -15,7 +15,7 @@ const app = express();
 connectDB();
 
 app.use(helmet());
-app.use(cors({ origin: process.env.frontend_url }));
+app.use(cors({ origin: process.env.frontend_url,credentials:true }));
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
