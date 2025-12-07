@@ -14,6 +14,8 @@ const app = express();
 
 connectDB();
 
+app.set("trust proxy", 1); // Trust first proxy for rate limiting behind proxies
+
 app.use(helmet());
 app.use(cors({ origin: process.env.frontend_url,credentials:true }));
 app.use(express.json());
