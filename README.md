@@ -4,7 +4,7 @@ A full-stack personal finance tracker application with:
 
 - **Backend:** Node.js + Express + MongoDB  
 - **Frontend:** React + Chart.js  
-- **Deployed frontend:** https://finanancetracker.vercel.app  
+- **Deployed frontend:**  https://finanancetracker.vercel.app/login
 
 Users can register, log in, add income/expense transactions, and view detailed analytics (monthly trends + category-wise spending).
 
